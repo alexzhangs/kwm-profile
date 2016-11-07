@@ -8,6 +8,7 @@ for file in "${FILES[@]}"; do
     /bin/cp -a "$BASE_DIR/$file" "$PROFILE_DIR"
 done
 
+brew services restart kwm
 echo "Done"
 
 exit
