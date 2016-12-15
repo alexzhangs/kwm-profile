@@ -22,7 +22,6 @@ brew install koekeishiya/kwm/kwm
 
 ```
 git clone https://github.com/alexzhangs/kwm-profile
-
 ```
 
 ## Usage
