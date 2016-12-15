@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/bash -e
 
-BASE_DIR="$(cd "$(dirname "$0")"; pwd)"
-. $BASE_DIR/common.sh
+BASE_DIR="$(cd "$(dirname "$0")/.."; pwd)"
+. $BASE_DIR/bin/common.sh
 
 for file in "${FILES[@]}"; do
     echo "Copying $PROFILE_DIR/$file to $BASE_DIR"
