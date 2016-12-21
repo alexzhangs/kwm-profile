@@ -9,6 +9,7 @@ kwmc rule owner="Finder" properties={float="true"}
 kwmc rule owner="BCompare" properties={float="true"}
 kwmc rule owner="App Store" properties={float="true"}
 kwmc rule owner="MPlayerX" properties={float="true"}
+kwmc rule owner="Surge Dashboard" propeerties={float="true"}
 
 /*
 The following commands create rules that
