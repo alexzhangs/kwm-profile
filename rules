@@ -4,10 +4,11 @@
     This is because some applications do not have the
     AXWindowRole and AXStandardWindowSubRole
 */
-kwmc rule owner="iTerm2" properties={float="true"}
 kwmc rule owner="Finder" properties={float="true"}
-kwmc rule owner="BCompare" properties={float="true"}
+kwmc rule owner="iTunes" properties={float="true"}
 kwmc rule owner="App Store" properties={float="true"}
+kwmc rule owner="iTerm2" properties={float="true"}
+kwmc rule owner="BCompare" properties={float="true"}
 kwmc rule owner="MPlayerX" properties={float="true"}
 kwmc rule owner="Surge Dashboard" propeerties={float="true"}
 
