@@ -92,6 +92,7 @@ Override default settings for space 1 on screen 0
 */
 kwmc config space 0 1 mode float
 kwmc config space 1 1 mode float
+kwmc config space 2 1 mode float
 
 /*
 Override default settings for screen 1
