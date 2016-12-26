@@ -4,13 +4,14 @@
     This is because some applications do not have the
     AXWindowRole and AXStandardWindowSubRole
 */
+kwmc rule owner="App Store" properties={float="true"}
+kwmc rule owner="BCompare" properties={float="true"}
 kwmc rule owner="Finder" properties={float="true"}
 kwmc rule owner="iTunes" properties={float="true"}
-kwmc rule owner="App Store" properties={float="true"}
 kwmc rule owner="iTerm2" properties={float="true"}
-kwmc rule owner="BCompare" properties={float="true"}
 kwmc rule owner="MPlayerX" properties={float="true"}
-kwmc rule owner="Surge Dashboard" propeerties={float="true"}
+kwmc rule owner="Surge Dashboard" properties={float="true"}
+kwmc rule owner="System Preferences" properties={float="true"}
 
 /*
 The following commands create rules that
@@ -25,7 +26,7 @@ The following command creates a rule that
 captures an application to the given screen,
 if the screen exists.
 */
-kwmc rule owner="System Preferences" properties={display="1"}
-kwmc rule owner="iTunes" properties={display="1"}
-kwmc rule owner="Finder" properties={display="1"}
 kwmc rule owner="BCompare" properties={display="1"}
+kwmc rule owner="Finder" properties={display="1"}
+kwmc rule owner="iTunes" properties={display="1"}
+kwmc rule owner="System Preferences" properties={display="1"}
